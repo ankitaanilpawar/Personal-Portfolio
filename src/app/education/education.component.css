@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 25%;
+  }
+ 
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd){background-color: #e7bae5}
+  
+  th {
+    background-color: #410650;
+    color: white;
+  }

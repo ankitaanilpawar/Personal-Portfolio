@@ -1,0 +1,34 @@
+<img src="assets/img/quali.jfif" style="margin-left:30%">
+<table>
+    <h3 id="head">{{tableheading}}</h3><br>
+<tr colspan="3">
+    <th>Qualification name</th>
+    <th>University/Board</th>
+    <th>Year of Passing</th>
+</tr>
+<tr *ngFor = "let q of qualification">
+    <td>{{q.name}}</td>
+    <td>{{q.University}}</td>
+    <td>{{q.Year}}</td>
+</tr>
+</table>
+
+<hr>
+
+<br><br>
+<img src="assets/img/proj3.jfif" style="margin-left:30%">
+<table>
+    <h3 id="head">{{tableheading1}}</h3><br>
+<tr colspan="3">
+    <th>Project name</th>
+    <th>Front-end</th>
+    <th>Back-end</th>
+</tr>
+<tr *ngFor = "let p of projects">
+    <td>{{p.name}}</td>
+    <td>{{p.Frontend}}</td>
+    <td>{{p.Backend}}</td>
+</tr>
+</table>
+<br>
+<br>
